@@ -11,6 +11,14 @@ interface Input {
   options: Set<Options>;
 }
 
+interface Season {
+  Origins: { [name: string]: string[] },
+  Types: { [name: string]: string[] },
+}
+
+import { parse } from "https://deno.land/std@0.97.0/encoding/yaml.ts";
+const data: Season = parse(Deno.readTextFileSync('./src/sets/tft-season-6.yaml')) as Season;
+
 console.log(main());
 
 function main() {
@@ -41,15 +49,50 @@ function parseInput(): Input {
 function RollAll({
   playerNames,
   options,
-}: Input): Set<Roll> {
-  const allRolls = new Set<Roll>();
+}: Input): Map<string, Roll> {
+  const allRolls = new Map<string, Roll>();
+
+  playerNames.forEach(name => {
+    const type = getRandom(Object.keys(data.Types));
+    const origin = getRandom(Object.keys(data.Origins));
+    const champions: Set<string> = new Set();
+
+    data.Types[type].forEach(
+      (champion: string) => champions.add(champion)
+    );
+    data.Origins[origin].forEach(
+      (champion: string) => champions.add(champion)
+    );
+
+    const king: string = getRandom(Array.from(champions));
+
+    allRolls.set(name, { king, origin, type });
+  })
 
   return allRolls;
 }
 
 /**
+ * Get a randon string from an array
+ */
+function getRandom(arr: string[]): string {
+  return arr[arr.length * Math.random() << 0]
+}
+
+/**
  * Format the set of rolls into a response string
  */
-function formatResponse(rolls): string {
-  return '';
+function formatResponse(rolls: Map<string, Roll>): string {
+  let text = '';
+
+  rolls.forEach((roll: Roll, name: string) => {
+    const { type, origin, king } = roll;
+    text += (
+      `TFT RollBot (Season 6):\n` +
+      `👑 ${king}\n` +
+      `👨‍👩‍👦 ${type} + ${origin}\n`
+    );
+  })
+
+  return text;
 }

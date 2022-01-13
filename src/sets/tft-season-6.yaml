@@ -1,185 +1,185 @@
 Origins:
   Academy:
-    Garen
-    Graves
-    Katarina
-    Leona
-    Lux
-    Yone
-    Yuumi
+    - Garen
+    - Graves
+    - Katarina
+    - Leona
+    - Lux
+    - Yone
+    - Yuumi
 
   Chemtech:
-    Mundo
-    Lissandra
-    Singed
-    Twitch
-    Urgot
-    Viktor
-    Warwick
-    Zac
+    - Mundo
+    - Lissandra
+    - Singed
+    - Twitch
+    - Urgot
+    - Viktor
+    - Warwick
+    - Zac
 
   Clockwork:
-    Camille
-    Jihn
-    Orianna
-    Zilean
+    - Camille
+    - Jihn
+    - Orianna
+    - Zilean
 
   Cuddly:
-    Yuumi
+    - Yuumi
 
   Enforcer:
-    Caitlyn
-    Fiora
-    Jayce
-    Vi
+    - Caitlyn
+    - Fiora
+    - Jayce
+    - Vi
 
   Glutton:
-    Tahm Kench
+    - Tahm Kench
 
   Imperial:
-    Samira
-    Urgot
-    Swain
-    Talon
+    - Samira
+    - Urgot
+    - Swain
+    - Talon
 
   Mercenary:
-    Gangplank
-    Illaoi
-    Miss Fortune
-    Quinn
-    Tahm Kench
+    - Gangplank
+    - Illaoi
+    - Miss Fortune
+    - Quinn
+    - Tahm Kench
 
   Mutant:
-    Chogath
-    Mundo
-    Kaisa
-    Kassadin
-    KogMaw
-    Malzahar
+    - Chogath
+    - Mundo
+    - Kaisa
+    - Kassadin
+    - KogMaw
+    - Malzahar
 
   Scrap:
-    Blitzcrank
-    Ekko
-    Ezreal
-    Janna
-    Jinx
-    Trundle
-    Ziggs
+    - Blitzcrank
+    - Ekko
+    - Ezreal
+    - Janna
+    - Jinx
+    - Trundle
+    - Ziggs
 
   Sister:
-    Jinx
-    Vi
+    - Jinx
+    - Vi
 
   Socialite:
-    Galio
-    Seraphine
-    Taric
+    - Galio
+    - Seraphine
+    - Taric
 
   Syndicate:
-    Akali
-    Braum
-    Darius
-    Shaco
-    Twisted Fate
-    Zyra
+    - Akali
+    - Braum
+    - Darius
+    - Shaco
+    - Twisted Fate
+    - Zyra
 
   Yordle:
-    DingerDonger
-    Lulu
-    Poppy
-    Tristana
-    Vex
-    Ziggs
+    - DingerDonger
+    - Lulu
+    - Poppy
+    - Tristana
+    - Vex
+    - Ziggs
 
 Types:
   Arcanist:
-    Lux
-    Malzahar
-    Swain
-    Twisted Fate
-    Vex
-    Viktor
-    Ziggs
+    - Lux
+    - Malzahar
+    - Swain
+    - Twisted Fate
+    - Vex
+    - Viktor
+    - Ziggs
 
   Assassin:
-    Akali
-    Ekko
-    Katarina
-    Shaco
-    Talon
-    Twitch
+    - Akali
+    - Ekko
+    - Katarina
+    - Shaco
+    - Talon
+    - Twitch
 
   Bruiser:
-    Chogath
-    Mundo
-    Illaoi
-    Tahm Kench
-    Trundle
-    Vi
-    Zac
+    - Chogath
+    - Mundo
+    - Illaoi
+    - Tahm Kench
+    - Trundle
+    - Vi
+    - Zac
 
   Bodyguard:
-    Blitzcrank
-    Braum
-    Darius
-    Galio
-    Leona
-    Poppy
+    - Blitzcrank
+    - Braum
+    - Darius
+    - Galio
+    - Leona
+    - Poppy
 
   Colossus:
-    Chogath
-    Galio
-    Sion
+    - Chogath
+    - Galio
+    - Sion
 
   Challenger:
-    Camille
-    Fiora
-    Kaisa
-    Quinn
-    Samira
-    Warwick
-    Yone
+    - Camille
+    - Fiora
+    - Kaisa
+    - Quinn
+    - Samira
+    - Warwick
+    - Yone
 
   Enchanter:
-    Janna
-    Lulu
-    Orianna
-    Taric
+    - Janna
+    - Lulu
+    - Orianna
+    - Taric
 
   Innovator:
-    Ezreal
-    DingerDonger
-    Jayce
-    Seraphine
-    Singed
-    Zilean
+    - Ezreal
+    - DingerDonger
+    - Jayce
+    - Seraphine
+    - Singed
+    - Zilean
 
   Protector:
-    Blitzcrank
-    Garen
-    Kassadin
-    Sion
+    - Blitzcrank
+    - Garen
+    - Kassadin
+    - Sion
 
   Scholar:
-    DingerDonger
-    Janna
-    Lissandra
-    Yuumi
-    Zyra
+    - DingerDonger
+    - Janna
+    - Lissandra
+    - Yuumi
+    - Zyra
 
   Sniper:
-    Caitlyn
-    Jihn
-    KogMaw
-    Miss Fortune
-    Tristana
+    - Caitlyn
+    - Jihn
+    - KogMaw
+    - Miss Fortune
+    - Tristana
 
   Twinshot:
-    Gangplank
-    Graves
-    Jinx
-    KogMaw
-    Urgot
+    - Gangplank
+    - Graves
+    - Jinx
+    - KogMaw
+    - Urgot
 
   Transformer:
-    Jayce
+    - Jayce
