@@ -6,7 +6,6 @@ Bot for rolling ultimate bravery for TFT.
 
 If inputing multiple players, avoid giving people the same comps.
 
-
 ## Interfaces
 
 ### Discord
@@ -17,7 +16,6 @@ If inputing multiple players, avoid giving people the same comps.
 TFT RollBot (Season 6):
   👑 Graves
   👨‍👩‍👦 Academy + Twinshot
-
 ```
 
 ```
@@ -36,7 +34,6 @@ TFT RollBot (Season 6):
 @player3
   👑 Yuumi
   👨‍👩‍👦 Scholar + Yordle
-
 ```
 
 ### Terminal
@@ -59,11 +56,10 @@ player3
   👨‍👩‍👦 Scholar + Yordle
 ```
 
-
 ## Options
 
-`--include-all`
-By default, we ignore 1-2 champion sets.  This includes them.
+`--include-all` By default, we ignore 1-2 champion sets. This includes them.
 
-`--no-dedupe`
-By default, we try to distribute traits and kings so that two people don't have the same trait and don't have the same king.  Adding no-dedupe option means all traits are completely random.
+`--no-dedupe` By default, we try to distribute traits and kings so that two
+people don't have the same trait and don't have the same king. Adding no-dedupe
+option means all traits are completely random.
