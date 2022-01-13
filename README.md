@@ -11,16 +11,18 @@ If inputing multiple players, avoid giving people the same comps.
 
 ### Discord
 
-/roll
 ```
+/roll
+
 TFT RollBot (Season 6):
   👑 Graves
   👨‍👩‍👦 Academy + Twinshot
 
-
-/roll @player1 @player2 @player3
+```
 
 ```
+/roll @player1 @player2 @player3
+
 TFT RollBot (Season 6):
 
 @player1
@@ -38,6 +40,8 @@ TFT RollBot (Season 6):
 ```
 
 ### Terminal
+
+```
 roll player1 player2 player3
 
 TFT RollBot (Season 6):
@@ -53,6 +57,7 @@ player2
 player3
   👑 Yuumi
   👨‍👩‍👦 Scholar + Yordle
+```
 
 
 ## Options
