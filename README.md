@@ -7,8 +7,10 @@ Bot for rolling ultimate bravery for TFT.
 If inputing multiple players, avoid giving people the same comps.
 
 ## Development
+
 - Get Deno
-- `deno run ./main.ts player1 player2 player3`
+- terminal: `deno run ./source/main.ts player1 player2 player3`
+- run discord bot: `deno run --allow-net --unstable ./source/discord-bot.ts`
 
 ## Interfaces
 
@@ -23,7 +25,7 @@ TFT RollBot (Season 6):
 ```
 
 ```
-/roll @player1 @player2 @player3
+!roll @player1 @player2 @player3
 
 TFT RollBot (Season 6):
 

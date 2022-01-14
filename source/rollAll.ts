@@ -1,13 +1,13 @@
-import { Roll, Input } from "./types.ts";
+import { Input, Roll } from "./types.ts";
 import { Season, season } from "./sets/tft-season-6.ts";
 
 /**
  * Creates a set of rolls based on the names given
  */
 export default function RollAll({
-  playerNames,
-  options,
-}: Input): string {
+  playerNames = new Set(),
+  options = new Set(),
+}: Input): Map<string, Roll> {
   const allRolls = new Map<string, Roll>();
   const { Types, Origins } = season;
 
@@ -63,7 +63,7 @@ export default function RollAll({
     allRolls.set(name, { king, origin, type });
   });
 
-  return formatResponse(allRolls);
+  return allRolls;
 }
 
 /**
@@ -71,22 +71,4 @@ export default function RollAll({
  */
 function getRandom(arr: string[]): string {
   return arr[arr.length * Math.random() << 0];
-}
-
-/**
- * Format the set of rolls into a response string
- */
-function formatResponse(rolls: Map<string, Roll>): string {
-  let text = "TFT RollBot (Season 6):\n\n";
-
-  rolls.forEach((roll: Roll, name: string) => {
-    const { type, origin, king } = roll;
-    text += (
-      (rolls.size > 1 ? `${name}\n` : "") +
-      `👑 ${king}\n` +
-      `👨‍👩‍👦 ${type} + ${origin}\n\n`
-    );
-  });
-
-  return text;
 }

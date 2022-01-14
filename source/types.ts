@@ -8,5 +8,5 @@ export interface Roll {
 
 export interface Input {
   playerNames: Set<string>;
-  options: Set<Options>;
+  options?: Set<Options>;
 }
