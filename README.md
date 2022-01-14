@@ -6,6 +6,10 @@ Bot for rolling ultimate bravery for TFT.
 
 If inputing multiple players, avoid giving people the same comps.
 
+## Development
+- Get Deno
+- `deno run ./main.ts player1 player2 player3`
+
 ## Interfaces
 
 ### Discord
