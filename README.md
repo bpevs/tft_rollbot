@@ -44,23 +44,7 @@ TFT RollBot (Season 6):
 
 ### Terminal
 
-```
-roll player1 player2 player3
-
-TFT RollBot (Season 6):
-
-player1
-  👑 Graves
-  👨‍👩‍👦 Academy + Twinshot
-
-player2
-  👑 Janna
-  👨‍👩‍👦 Scrap + Clockwork
-
-player3
-  👑 Yuumi
-  👨‍👩‍👦 Scholar + Yordle
-```
+![Terminal Example](./screenshots/terminal-example.png)
 
 ## Options
 
