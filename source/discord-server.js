@@ -3,7 +3,7 @@
  *
  * @references
  * https://github.com/discordeno/serverless-deno-deploy-template
- * https://dev.to/eternalllight/making-a-discord-bot-with-deno-and-discordeno-3mhm
+ * https://discordeno.mod.land/gettingstarted.html
  */
 
 import { roll } from "./utilities/roll.ts";
