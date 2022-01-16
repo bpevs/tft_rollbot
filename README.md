@@ -23,8 +23,9 @@ Uses [Deno](https://deno.land/) both for discord server, and for terminal.
 !roll
 
 TFT RollBot (Season 6):
-  👑 Graves
-  👨‍👩‍👦 Academy + Twinshot
+
+  King: Graves
+  Team: Academy + Twinshot
 ```
 
 ```
