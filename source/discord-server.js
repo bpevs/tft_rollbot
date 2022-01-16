@@ -7,22 +7,8 @@
  */
 
 import { roll } from "./utilities/roll.ts";
-import { formatOutputString } from "./utilities/formatOutputString";
-import { ChannelTypes, Guild, logGreen } from "./mod.ts";
-
-// Entry Message
-export const guildCreate = (guild) => {
-  logGreen(
-    `[EVENT=GuildCreate]: ${guild.name} with ${guild.memberCount} members.`,
-  );
-  for (const channel of guild.channels.values()) {
-    if (channel.type !== ChannelTypes.GUILD_TEXT) {
-      continue;
-    }
-    channel.sendMessage("Hello there!");
-    break;
-  }
-};
+import { formatOutputString } from "./utilities/formatOutputString.ts";
+import { ChannelTypes, logGreen } from "./deps.ts";
 
 // Setup Roll Command
 botCache.command.set("roll", {
@@ -31,12 +17,14 @@ botCache.command.set("roll", {
 
     let text = "TFT RollBot (Season 6):\n\n";
 
-    rolls.forEach((roll, name) => {
+    Object.keys(rolls).forEach((playerName) => {
+      const roll = rolls[playerName];
       const { type, origin, king } = roll;
+
       text += (
-        (rolls.size > 1 ? `${name}\n` : "") +
-        `👑 ${king}\n` +
-        `👨‍👩‍👦 ${type} + ${origin}\n\n`
+        (numPlayers > 1 ? `${playerName}\n` : "") +
+        `  King: ${king}\n` +
+        `  Team: ${type} + ${origin}\n\n`
       );
     });
 
