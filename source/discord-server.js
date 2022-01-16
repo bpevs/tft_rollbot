@@ -1,10 +1,17 @@
-import { default as rollAll } from "./rollAll.ts";
-import { Input, Options, Roll } from "./types.ts";
+/**
+ * Incomplete Discord Server Code.
+ *
+ * @references
+ * https://github.com/discordeno/serverless-deno-deploy-template
+ * https://dev.to/eternalllight/making-a-discord-bot-with-deno-and-discordeno-3mhm
+ */
 
+import { roll } from "./utilities/roll.ts";
+import { formatOutputString } from "./utilities/formatOutputString";
 import { ChannelTypes, Guild, logGreen } from "./mod.ts";
 
 // Entry Message
-export const guildCreate = (guild: Guild) => {
+export const guildCreate = (guild) => {
   logGreen(
     `[EVENT=GuildCreate]: ${guild.name} with ${guild.memberCount} members.`,
   );
@@ -20,13 +27,11 @@ export const guildCreate = (guild: Guild) => {
 // Setup Roll Command
 botCache.command.set("roll", {
   callback: (message) => {
-    const playerNames = new Set(["ben"]);
-
-    const rolls = rollAll({ playerNames });
+    const rolls = roll(new Set(["player1"]));
 
     let text = "TFT RollBot (Season 6):\n\n";
 
-    rolls.forEach((roll: Roll, name: string) => {
+    rolls.forEach((roll, name) => {
       const { type, origin, king } = roll;
       text += (
         (rolls.size > 1 ? `${name}\n` : "") +

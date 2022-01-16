@@ -1,4 +1,7 @@
-// Dependencies are used for Discord Bot
+/**
+ * This file organizes and re-exports external dependencies
+ * used by Discord Server
+ */
 
 import { Guild } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v4/structures/guild.ts";
 import { ChannelTypes } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v4/types/channel.ts";

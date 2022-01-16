@@ -1,10 +1,10 @@
 export interface Season {
-  Origins: { [name: string]: string[] };
-  Types: { [name: string]: string[] };
+  origins: { [name: string]: string[] };
+  types: { [name: string]: string[] };
 }
 
 export const season: Season = {
-  "Origins": {
+  "origins": {
     "Academy": [
       "Garen",
       "Graves",
@@ -98,7 +98,7 @@ export const season: Season = {
       "Ziggs",
     ],
   },
-  "Types": {
+  "types": {
     "Arcanist": [
       "Lux",
       "Malzahar",
