@@ -13,24 +13,32 @@ Uses [Deno](https://deno.land/) both for discord server, and for terminal.
 | Use                | Command                                                      |
 | ------------------ | ------------------------------------------------------------ |
 | Run as CLI utility | `deno run ./source/cli.ts [playerNames ...]`                 |
-| Run Discord Bot    | Create a .env file with the ids, the run:<br />`deno run --allow-env --allow-net --allow-read --unstable ./source/discord-server.js` |
+| Run Discord Bot Server | Create a .env file with the ids, then run:<br />`deno run --allow-env --allow-net --allow-read --unstable ./source/discord-server.js` |
 
 ## Usage
 
 ### Discord Bot
 
+#### Rolling for a single player
+
 ```
 !roll
+```
 
+```
 TFT RollBot (Season 6):
 
   King: Graves
   Team: Academy + Twinshot
 ```
 
+#### Rolling for a group of players
+
 ```
 !roll @player1 @player2 @player3
+```
 
+```
 TFT RollBot (Season 6):
 
 @player1
@@ -46,9 +54,9 @@ TFT RollBot (Season 6):
   Team: Twinshot + Imperial
 ```
 
-### Terminal
+### CLI Utility
 
-#### Installation
+#### Setup
 
 1. Install [Deno](https://deno.land/)
 
@@ -56,20 +64,26 @@ TFT RollBot (Season 6):
 
 You should now be able to call the `roll` command.
 
-#### Usage
+#### Roll for a Single Player
 
 ```
 roll
+```
 
+```
 TFT RollBot (Season 6):
 
   King: Twisted Fate
   Team: Arcanist + Yordle
 ```
 
+#### Rolling for a group of players
+
 ```
 roll @player1 @player2 @player3
+```
 
+```
 TFT RollBot (Season 6):
 
 @player1
