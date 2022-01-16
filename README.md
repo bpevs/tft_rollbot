@@ -13,7 +13,7 @@ Uses [Deno](https://deno.land/) both for discord server, and for terminal.
 | Use                | Command                                                      |
 | ------------------ | ------------------------------------------------------------ |
 | Run as CLI utility | `deno run ./source/cli.ts [playerNames ...]`                 |
-| Run Discord Bot    | `deno run --allow-net --unstable ./source/discord-server.js` |
+| Run Discord Bot    | Create a .env file with the ids, the run: `deno run --allow-env --allow-net --allow-read --unstable ./source/discord-server.js` |
 
 ## Usage
 

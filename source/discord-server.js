@@ -7,14 +7,16 @@
  * https://github.com/discordeno/template/tree/main/beginner
  */
 
-import { startBot } from "https://deno.land/x/discordeno@12.0.1/mod.ts";
+// For pulling token and id from env variables or .env file
+import "https://deno.land/x/dotenv/load.ts";
 
+import { startBot } from "https://deno.land/x/discordeno@12.0.1/mod.ts";
 import { formatOutputString } from "./utilities/formatOutputString.ts";
 import { roll } from "./utilities/roll.ts";
 
 // Ripped from examples, but Code doesn't work idk why.
 startBot({
-  token: "my-token-here",
+  token: Deno.env.get("DISCORD_TOKEN"),
   intents: ["GUILDS", "GUILD_MESSAGES"],
   eventHandlers: {
     ready() {
