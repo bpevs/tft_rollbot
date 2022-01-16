@@ -13,7 +13,7 @@ Uses [Deno](https://deno.land/) both for discord server, and for terminal.
 | Use                | Command                                                      |
 | ------------------ | ------------------------------------------------------------ |
 | Run as CLI utility | `deno run ./source/cli.ts [playerNames ...]`                 |
-| Run Discord Bot    | Create a .env file with the ids, the run: `deno run --allow-env --allow-net --allow-read --unstable ./source/discord-server.js` |
+| Run Discord Bot    | Create a .env file with the ids, the run:<br />`deno run --allow-env --allow-net --allow-read --unstable ./source/discord-server.js` |
 
 ## Usage
 
@@ -50,7 +50,11 @@ TFT RollBot (Season 6):
 
 #### Installation
 
-`deno install --name=roll https://raw.githubusercontent.com/ivebencrazy/tft-rollbot/master/source/cli.ts`
+1. Install [Deno](https://deno.land/)
+
+2. Install Rollbot: `deno install --name=roll https://raw.githubusercontent.com/ivebencrazy/tft-rollbot/master/source/cli.ts`
+
+You should now be able to call the `roll` command.
 
 #### Usage
 
