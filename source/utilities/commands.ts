@@ -1,6 +1,6 @@
 import type { RollResults } from "../utilities/roll.ts";
 
-import { Command, CommandBuilder, CommandContext } from "harmony";
+import { Command, CommandBuilder, CommandContext } from "../deps.ts";
 
 import { ENVIRONMENT } from "../constants.ts";
 import { formatOutputString } from "../utilities/formatOutputString.ts";

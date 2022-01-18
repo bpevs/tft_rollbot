@@ -2,8 +2,8 @@
  * Entrypoint for starting the Discord Bot server
  */
 
-import "load-env";
-import { CommandClient, Intents } from "harmony";
+import "https://deno.land/x/dotenv/load.ts";
+import { CommandClient, Intents } from "./deps.ts";
 
 import { helpCommand, rollCommand } from "./utilities/commands.ts";
 
