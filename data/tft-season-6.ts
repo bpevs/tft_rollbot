@@ -1,7 +1,4 @@
-export interface Season {
-  origins: { [name: string]: string[] };
-  types: { [name: string]: string[] };
-}
+import type { Season } from "../source/types.ts";
 
 export const season: Season = {
   "origins": {

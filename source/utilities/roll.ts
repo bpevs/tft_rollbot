@@ -1,4 +1,6 @@
-import { Season, season } from "../data/tft-season-6.ts";
+import type { Season } from "../types.ts";
+
+import { season } from "../../data/tft-season-6.5.ts";
 
 const { types, origins } = season;
 

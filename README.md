@@ -10,10 +10,10 @@ If inputing multiple players, avoid giving people the same comps.
 
 Uses [Deno](https://deno.land/) both for discord server, and for terminal.
 
-| Use                  | Command                                            |
-| -------------------- | -------------------------------------------------- |
-| Run as CLI utility   | `deno run ./source/cli.ts [playerNames ...]`       |
-| Run Discord Bot      | Create a .env file with the token, the run: `make` |                                                 |
+| Use                | Command                                            |
+| ------------------ | -------------------------------------------------- |
+| Run as CLI utility | `deno run ./source/cli.ts [playerNames ...]`       |
+| Run Discord Bot    | Create a .env file with the token, the run: `make` |
 
 ## Usage
 
