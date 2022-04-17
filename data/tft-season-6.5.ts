@@ -32,7 +32,7 @@ export const season: Season = {
       "Jayce",
     ],
     "Glutton": [
-      "Tahm Kench"
+      "Tahm Kench",
     ],
     "Hextech": [
       "Jarvan IV",
@@ -44,7 +44,7 @@ export const season: Season = {
       "Sivir",
     ],
     "Mastermind": [
-      "Silco"
+      "Silco",
     ],
     "Mercenary": [
       "Gangplank",
@@ -63,23 +63,23 @@ export const season: Season = {
     ],
     "Rival": [
       "Vi",
-      "Jinx"
-     ],
-     "Scrap": [
+      "Jinx",
+    ],
+    "Scrap": [
       "Ezreal",
       "Ziggs",
       "Blitzcrank",
       "Ekko",
       "Irelia",
       "Jinx",
-     ],
-     "Socialite": [
+    ],
+    "Socialite": [
       "Gnar",
       "Senna",
       "Seraphine",
       "Galio",
     ],
-     "Syndicate": [
+    "Syndicate": [
       "Darius",
       "Ashe",
       "Zyra",
@@ -87,17 +87,17 @@ export const season: Season = {
       "Ahri",
       "Braum",
     ],
-     "Yordle": [
+    "Yordle": [
       "Poppy",
       "Ziggs",
       "Corki",
       "Lulu",
       "Gnar",
       "Vex",
-     ],
-     "Yordle-Lord": [
-       "Veigar"
-     ]
+    ],
+    "Yordle-Lord": [
+      "Veigar",
+    ],
   },
   "types": {
     "Arcanist": [
@@ -182,7 +182,7 @@ export const season: Season = {
       "Sivir",
     ],
     "Transformer": [
-      "Jayce"
+      "Jayce",
     ],
     "Twinshot": [
       "Corki",
