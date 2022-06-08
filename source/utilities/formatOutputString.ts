@@ -40,29 +40,29 @@ export function formatOutputString(
 }
 
 function formatPlayerTextForDiscord(roll: RollData) {
-  const { showPlayerName, playerName, king, type, origin } = roll;
+  const { showPlayerName, playerName, king, traitOne, traitTwo } = roll;
   const playerNameText = showPlayerName ? `${playerName}\n` : "";
   const kingText = `  👑  ${king}\n`;
-  const teamText = `  ⚔  ${type} + ${origin}\n`;
+  const teamText = `  ⚔  ${traitOne} + ${traitTwo}\n`;
 
   return playerNameText + kingText + teamText;
 }
 
 // PowerShell does not support emoji
 function formatPlayerTextForPowerShell(roll: RollData) {
-  const { showPlayerName, playerName, king, type, origin } = roll;
+  const { showPlayerName, playerName, king, traitOne, traitTwo } = roll;
   const playerNameText = showPlayerName ? `${playerName}\n` : "";
   const kingText = `  King: ${king}\n`;
-  const teamText = `  Team: ${type} + ${origin}\n`;
+  const teamText = `  Team: ${traitOne} + ${traitTwo}\n`;
 
   return playerNameText + kingText + teamText;
 }
 
 function formatPlayerTextForTerminal(roll: RollData) {
-  const { showPlayerName, playerName, king, type, origin } = roll;
+  const { showPlayerName, playerName, king, traitOne, traitTwo } = roll;
   const playerNameText = showPlayerName ? `${playerName}\n` : "";
   const kingText = `  👑: ${king}\n`;
-  const teamText = `  👨‍👩‍👦: ${type} + ${origin}\n`;
+  const teamText = `  👨‍👩‍👦: ${traitOne} + ${traitTwo}\n`;
 
   return playerNameText + kingText + teamText;
 }

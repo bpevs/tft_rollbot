@@ -1,13 +1,9 @@
-import type { Season } from "../types.ts";
-
-import { season } from "../../data/tft-season-6.5.ts";
-
-const { types, origins } = season;
+import traits from "../../db/data.json" assert { type: "json" };
 
 export interface RollResult {
   king: string;
-  origin: string;
-  type: string;
+  traitOne: string;
+  traitTwo: string;
 }
 
 export type RollResultCollection = {
@@ -23,40 +19,38 @@ type ChampionSet = { [name: string]: string[] };
 export function roll(playerNames: Set<string> = new Set()): RollResults {
   const results: RollResults = {};
 
-  const championTypes: ChampionSet = filter(types, hasMoreThan2Champions);
-  const championOrigins: ChampionSet = filter(origins, hasMoreThan2Champions);
+  const championTraits: ChampionSet = filter(traits, hasMoreThan2Champions);
 
   const takenKings: string[] = [];
-  let availableTypes = Object.keys(championTypes);
-  let availableOrigins = Object.keys(championOrigins);
+  let availableTraits = Object.keys(championTraits);
 
   playerNames.forEach((name) => {
-    const type: string = getRandom(availableTypes);
-    const origin: string = getRandom(availableOrigins);
+    const indexOne: number = getRandomIndex(availableTraits);
+    const traitOne: string = availableTraits[indexOne];
+
+    const indexTwo: number = getRandomIndex(availableTraits, indexOne);
+    const traitTwo: string = availableTraits[indexTwo]
 
     const availableKings: Set<string> = new Set();
 
-    championTypes[type]
-      .concat(championOrigins[origin])
+    championTraits[traitOne]
+      .concat(championTraits[traitTwo])
       .forEach((champion: string) => {
         availableKings.add(champion);
       });
 
-    const king: string = getRandom(
+    const kingIndex: number = getRandomIndex(
       Array.from(availableKings).filter(
         (king: string) => !takenKings.includes(king),
       ),
     );
+    const king: string = Array.from(availableKings)[kingIndex];
 
-    results[name] = { king, origin, type };
+    results[name] = { king, traitOne, traitTwo };
 
     // Update type, origin, and king, so they aren't used by subsequent players
-    availableTypes = availableTypes.filter(
-      (typeName: string) => typeName !== type,
-    );
-
-    availableOrigins = availableOrigins.filter(
-      (originName: string) => originName !== origin,
+    availableTraits = availableTraits.filter(
+      (traitName: string) => traitName !== traitOne && traitName !== traitTwo,
     );
 
     takenKings.push(king);
@@ -66,8 +60,12 @@ export function roll(playerNames: Set<string> = new Set()): RollResults {
 }
 
 // Get a randon string from an array
-function getRandom(arr: string[]): string {
-  return arr[(arr.length * Math.random()) << 0];
+function getRandomIndex(arr: string[], illegalIndex?: number): number {
+  let index = (arr.length * Math.random()) << 0;
+  while (illegalIndex != null && illegalIndex === index) {
+    index = (arr.length * Math.random()) << 0;
+  }
+  return index;
 }
 
 // It sucks to get a set with only 2 or 1 champions,

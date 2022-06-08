@@ -1,0 +1,194 @@
+{
+  "Cannoneer": [
+    "Senna",
+    "Tristana",
+    "Corki",
+    "Jinx"
+  ],
+  "Tempest": [
+    "Ezreal",
+    "Lee Sin",
+    "Ornn",
+    "Qiyana",
+    "Ao Shin"
+  ],
+  "Assassin": [
+    "Diana",
+    "Talon",
+    "Kayn",
+    "Qiyana",
+    "Pyke"
+  ],
+  "Dragon": [
+    "Shyvana",
+    "Ao Shin",
+    "Sy'fen",
+    "Shi Oh Yu",
+    "Idas",
+    "Daeja",
+    "Aurelion Sol"
+  ],
+  "Ragewing": [
+    "Senna",
+    "Sett",
+    "Swain",
+    "Shen",
+    "Shyvana",
+    "Hecarim",
+    "Kayn",
+    "Xayah"
+  ],
+  "Guild": [
+    "Sejuani",
+    "Ryze",
+    "Talon",
+    "Bard",
+    "Twitch"
+  ],
+  "Cavalier": [
+    "Sejuani",
+    "Lillia",
+    "Hecarim",
+    "Nunu & Willump"
+  ],
+  "Mage": [
+    "Vladimir",
+    "Nami",
+    "Lillia",
+    "Ryze",
+    "Heimerdinger",
+    "Zoe",
+    "Sylas"
+  ],
+  "Evoker": [
+    "Lulu",
+    "Anivia",
+    "Sona",
+    "Aurelion Sol"
+  ],
+  "Shimmerscale": [
+    "Aatrox",
+    "Volibear",
+    "Zoe",
+    "Kayn",
+    "Idas"
+  ],
+  "Dragonmancer": [
+    "Sett",
+    "Swain",
+    "Ashe",
+    "Lee Sin",
+    "Volibear",
+    "Karma",
+    "Yasuo"
+  ],
+  "Scalescorn": [
+    "Diana",
+    "Lillia",
+    "Olaf",
+    "Braum"
+  ],
+  "Whispers": [
+    "Thresh",
+    "Elise",
+    "Sylas",
+    "Sy'fen",
+    "Pyke"
+  ],
+  "Revel": [
+    "Corki",
+    "Jinx",
+    "Sona",
+    "Tahm Kench"
+  ],
+  "Mirage": [
+    "Yone",
+    "Yasuo",
+    "Nunu & Willump",
+    "Leona",
+    "Daeja"
+  ],
+  "Trainer": [
+    "Lulu",
+    "Heimerdinger",
+    "Tristana"
+  ],
+  "Mystic": [
+    "Nami",
+    "Lulu",
+    "Bard",
+    "Shi Oh Yu"
+  ],
+  "Legend": [
+    "Volibear",
+    "Ornn",
+    "Anivia"
+  ],
+  "Guardian": [
+    "Thresh",
+    "Braum",
+    "Taric",
+    "Leona",
+    "Idas"
+  ],
+  "Starcaller": [
+    "Soraka"
+  ],
+  "Spell Thief": [
+    "Zoe"
+  ],
+  "Warrior": [
+    "Aatrox",
+    "Yone",
+    "Shen",
+    "Olaf",
+    "Yasuo"
+  ],
+  "Jade": [
+    "Gnar",
+    "Ashe",
+    "Soraka",
+    "Karma",
+    "Anivia",
+    "Neeko",
+    "Taric",
+    "Shi Oh Yu"
+  ],
+  "Astral": [
+    "Vladimir",
+    "Nidalee",
+    "Nami",
+    "Skarner",
+    "Varus",
+    "Illaoi",
+    "Aurelion Sol"
+  ],
+  "Swiftshot": [
+    "Ezreal",
+    "Ashe",
+    "Varus",
+    "Xayah",
+    "Twitch"
+  ],
+  "Bard": [
+    "Bard"
+  ],
+  "Bruiser": [
+    "Skarner",
+    "Shen",
+    "Olaf",
+    "Ornn",
+    "Illaoi",
+    "Sylas",
+    "Sy'fen",
+    "Tahm Kench"
+  ],
+  "Shapeshifter": [
+    "Nidalee",
+    "Gnar",
+    "Swain",
+    "Elise",
+    "Shyvana",
+    "Neeko"
+  ]
+}
