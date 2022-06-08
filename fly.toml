@@ -8,7 +8,7 @@ kill_timeout = 5
 [env]
 
 [processes]
-  app = "run --allow-env --allow-net --allow-read ./source/discord-server.ts"
+  app = "run --allow-env --allow-net --allow-read --no-check ./source/discord-server.ts"
 
 [experimental]
   allowed_public_ports = []
