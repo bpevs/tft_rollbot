@@ -29,7 +29,7 @@ export function roll(playerNames: Set<string> = new Set()): RollResults {
     const traitOne: string = availableTraits[indexOne];
 
     const indexTwo: number = getRandomIndex(availableTraits, indexOne);
-    const traitTwo: string = availableTraits[indexTwo]
+    const traitTwo: string = availableTraits[indexTwo];
 
     const availableKings: Set<string> = new Set();
 

@@ -14,7 +14,7 @@ const SET_NAME: string = "7";
  *  We may need to add some set-specific filters if the set has
  *  unobtainable champions
  */
- interface Data {
+interface Data {
   items: any[];
   setData: SetData[];
   sets: any;
