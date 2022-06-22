@@ -19,7 +19,10 @@ type ChampionSet = { [name: string]: string[] };
 export function roll(playerNames: Set<string> = new Set()): RollResults {
   const results: RollResults = {};
 
-  const championTraits: ChampionSet = filter(traits, hasMoreThan2Champions);
+  const championTraits: ChampionSet = filter<string[]>(
+    traits,
+    hasMoreThan2Champions,
+  );
 
   const takenKings: string[] = [];
   let availableTraits = Object.keys(championTraits);
@@ -75,14 +78,14 @@ function hasMoreThan2Champions(champions: string[]) {
 }
 
 // Iterate and filter over objects
-function filter(
-  collection: { [name: string]: any },
-  func: (item: any, index: string) => boolean,
-): { [name: string]: any } {
-  const result: { [name: string]: any } = {};
+function filter<Item>(
+  collection: { [name: string]: Item },
+  func: (item: Item, index: string) => boolean,
+): { [name: string]: Item } {
+  const result: { [name: string]: Item } = {};
 
   for (const index in collection) {
-    if (collection.hasOwnProperty(index)) {
+    if (index in collection) {
       const item = collection[index];
       if (func(item, index)) result[index] = item;
     }

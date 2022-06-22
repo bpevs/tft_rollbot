@@ -12,20 +12,17 @@ interface RollData extends RollResult {
 type Formatter = (roll: RollData) => string;
 
 const formatters: { [environment: string]: Formatter } = {
-  [ENVIRONMENT.DISCORD]: formatPlayerTextForDiscord,
-  [ENVIRONMENT.POWER_SHELL]: formatPlayerTextForPowerShell,
-  [ENVIRONMENT.TERMINAL]: formatPlayerTextForTerminal,
+  [DISCORD]: formatPlayerTextForDiscord,
+  [POWER_SHELL]: formatPlayerTextForPowerShell,
+  [TERMINAL]: formatPlayerTextForTerminal,
 };
 
 const titleText = "TFT RollBot (Season 7):\n\n";
 
 export function formatOutputString(
   rolls: RollResultCollection,
-  environment: Environment = ENVIRONMENT.POWER_SHELL,
+  environment: Environment = POWER_SHELL,
 ): string {
-  const numPlayers = Object.keys(rolls).length;
-  const shouldDisplayPlayerName = numPlayers > 1;
-
   // Default to POWER_SHELL, because it's the most basic formatter
   const formatter = formatters[environment] || formatters[POWER_SHELL];
   const playerText = Object.keys(rolls)

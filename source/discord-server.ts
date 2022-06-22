@@ -1,25 +1,56 @@
-/**
- * Entrypoint for starting the Discord Bot server
- */
+import "dotenv";
+import {
+  ApplicationCommandInteraction,
+  Client,
+  event,
+  Intents,
+  slash,
+  SlashCommandOptionType,
+  SlashCommandPartial,
+} from "harmony";
+import { ENVIRONMENT } from "./constants.ts";
+import { formatOutputString } from "./utilities/formatOutputString.ts";
+import { roll } from "./utilities/roll.ts";
 
-import "https://deno.land/x/dotenv/load.ts";
-import { app, get } from "https://denopkg.com/syumai/dinatra/mod.ts";
-import { CommandClient, Intents } from "./deps.ts";
+const commands: SlashCommandPartial[] = [
+  {
+    name: "roll",
+    description: "Roll a TFT Comp",
+    options: [
+      {
+        name: "names",
+        description: "Add player names to avoid overlapping comps",
+        required: false,
+        type: SlashCommandOptionType.STRING,
+      },
+    ],
+  },
+];
 
-import { helpCommand, rollCommand } from "./utilities/commands.ts";
+class TagBot extends Client {
+  @event()
+  ready() {
+    console.log("Ready!");
+    commands.forEach((command) => {
+      this.slash.commands.create(command)
+        .then((cmd) => console.log(`Created Slash Command ${cmd.name}!`))
+        .catch((err) => console.log(`Failed to create command!`, err));
+    });
+  }
 
-const client = new CommandClient({
-  prefix: "!",
-});
+  @slash()
+  roll(i: ApplicationCommandInteraction) {
+    const options = i?.options;
+    const players = (options[0]?.value || "").split(" ").filter(Boolean);
+    const tooManyPlayers = players.length > 8;
+    if (tooManyPlayers) i.respond({ content: "Too many players!" });
 
-// Register the commands
-client.commands.add(rollCommand);
-client.commands.add(helpCommand);
+    // Default to rolling for 1 player
+    const rolls = roll(new Set(players.length ? players : ["default"]));
+    const content = formatOutputString(rolls, ENVIRONMENT.DISCORD);
+    i.respond({ content });
+  }
+}
 
-client.on("ready", () => {
-  console.log("Ready to troll!");
-});
-
-client.connect(Deno.env.get("DISCORD_TOKEN"), Intents.None);
-
-app(get("/", () => "Rollbot is a go!"));
+const bot = new TagBot();
+bot.connect(Deno.env.get("DISCORD_TOKEN"), Intents.None);

@@ -1,7 +1,7 @@
 // deno-lint-ignore-file no-explicit-any
 import data from "./cache.json" assert { type: "json" };
 
-const SET_NAME: string = "7";
+const SET_NAME = "7";
 
 /**
  *  There is no auto-generated static content for TFT currently...
