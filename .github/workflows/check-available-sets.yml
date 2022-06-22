@@ -25,4 +25,4 @@ jobs:
           deno-version: v1.x
 
       - name: Run Check Script
-        run: deno run --allow-net ./check-available-sets.ts
+        run: deno run --allow-net ./db/check-available-sets.ts

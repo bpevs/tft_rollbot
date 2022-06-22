@@ -30,7 +30,7 @@ jobs:
           deno-version: v1.x
 
       - name: Run Update Script
-        run: deno run --allow-net --allow-write ./update.ts ${{ github.event.inputs.version }}
+        run: deno run --allow-net --allow-write ./db/update.ts ${{ github.event.inputs.version }}
 
       - name: Run deno fmt
         run: deno fmt
