@@ -1,15 +1,11 @@
-// deno-lint-ignore-file no-explicit-any
-import data from "./cache.json" assert { type: "json" };
-
-const SET_NAME = "7";
-
 /**
  *  There is no auto-generated static content for TFT currently...
  *  Latest update is from set 5....
  *  https://developer.riotgames.com/docs/tft#static-data
  *
  *  Therefore, use community-driven site cdragon:
- *    - https://www.communitydragon.org
+ *    - https://cdn.communitydragon.org
+ *    - https://raw.communitydragon.org/latest/cdragon/tft/en_us.json
  *
  *  We may need to add some set-specific filters if the set has
  *  unobtainable champions
@@ -46,7 +42,15 @@ interface Trait {
   name: string;
 }
 
-const { champions, traits } = data.sets[SET_NAME];
+const resp = await fetch('https://raw.communitydragon.org/latest/cdragon/tft/en_us.json');
+const data = await resp.json();
+
+const setNames = Object.keys(data.sets);
+const setName = Number(Deno.args[0]);
+
+if (!data.sets[setName]) throw new Error('Invalid Set Name');
+
+const { champions, traits } = data.sets[setName];
 
 const traitsSet: Set<string> = new Set();
 traits.forEach(({ name }) => traitsSet.add(name));
