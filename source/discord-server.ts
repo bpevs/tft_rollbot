@@ -19,7 +19,7 @@ if (commands.size !== 1) {
       options: [
         {
           name: "names",
-          description: "Add player names to avoid overlapping comps",
+          description: "Adding player names avoids overlapping comps",
           required: false,
           type: SlashCommandOptionType.STRING,
         },
@@ -39,3 +39,5 @@ deploy.handle("roll", (i: ApplicationCommandInteraction) => {
   const content = formatOutputString(rolls, ENVIRONMENT.DISCORD);
   i.reply({ content });
 });
+
+console.log("Setup Complete");
