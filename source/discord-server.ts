@@ -1,16 +1,15 @@
 import "dotenv";
 import * as deploy from "deploy";
-import { ApplicationCommandInteraction, SlashCommandOptionType } from "harmony";
+import { ApplicationCommandType, ApplicationCommandInteraction, SlashCommandOptionType } from "harmony";
 
 import { ENVIRONMENT } from "./constants.ts";
 import { formatOutputString } from "./utilities/formatOutputString.ts";
 import { roll } from "./utilities/roll.ts";
 
-deploy.init({
-  env: true,
-});
+deploy.init({ env: true });
 
 const commands = await deploy.commands.all();
+
 if (commands.size !== 1) {
   deploy.commands.bulkEdit([
     {
@@ -40,6 +39,6 @@ deploy.handle("roll", (i: ApplicationCommandInteraction) => {
   const rolls = roll(new Set(players.length ? players : ["default"]));
   const content = formatOutputString(rolls, ENVIRONMENT.DISCORD);
   i.reply({ content });
-});
+}, ApplicationCommandType.MESSAGE);
 
 console.log("Setup Complete");
