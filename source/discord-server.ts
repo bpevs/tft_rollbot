@@ -30,6 +30,8 @@ if (commands.size !== 1) {
 
 deploy.handle("roll", (i: ApplicationCommandInteraction) => {
   const options = i?.options;
+  console.log('Attempting to Roll...');
+  console.log('Players:', i?.options);
   const players = (options[0]?.value || "").split(" ").filter(Boolean);
   const tooManyPlayers = players.length > 8;
   if (tooManyPlayers) i.reply({ content: "Too many players!" });
