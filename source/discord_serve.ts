@@ -22,15 +22,16 @@ async function handle(request: Request) {
   const { valid, body } = await verifySignature(request);
   if (!valid) return json({ error: "Invalid request" }, { status: 401 });
 
-  const { type = 0, data = { options: [] } } = JSON.parse(body);
+  const { type = 0, data } = JSON.parse(body);
+  const options = data?.options || [];
+
 
   if (type === RequestType.PING) return json({ type: 1 });
 
   if (type === RequestType.COMMAND) {
-    const options = data.options;
     console.log("Attempting to Roll...");
     console.log("Players:", options);
-    const players = (options[0]?.value || "").split(" ").filter(Boolean);
+    const players = (options[0]?.value || "").split(" ").filter(Boolean) || [];
 
     if (players.length > 8) {
       return json({ type: 4, data: { content: "Too many players!" } });
