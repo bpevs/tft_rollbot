@@ -1,6 +1,6 @@
-import "dotenv";
-import { json, serve, validateRequest } from "sift";
-import nacl from "nacl";
+import "https://deno.land/x/dotenv@v3.2.0/load.ts";
+import { json, serve, validateRequest } from "https://deno.land/x/sift/mod.ts";
+import nacl from "https://cdn.skypack.dev/tweetnacl@v1.0.3?dts";
 
 import { ENVIRONMENT } from "./constants.ts";
 import { formatOutputString } from "./utilities/formatOutputString.ts";

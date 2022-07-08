@@ -4,7 +4,6 @@
       "include": ["source/"]
     }
   },
-  "importMap": "import_map.json",
   "tasks": {
     "roll": "deno run source/cli.ts",
     "db:update": "deno run --allow-net --allow-write db/update.ts",
