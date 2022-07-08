@@ -4,5 +4,11 @@
       "include": ["source/"]
     }
   },
-  "importMap": "import_map.json"
+  "importMap": "import_map.json",
+  "tasks": {
+    "roll": "deno run source/cli.ts",
+    "db:update": "deno run --allow-net --allow-write db/update.ts",
+    "discord:setup": "deno run --allow-env --allow-net --allow-read source/discord_setup.ts",
+    "discord:serve": "deno run  --allow-env --allow-net --allow-read source/discord_serve.ts"
+  }
 }
