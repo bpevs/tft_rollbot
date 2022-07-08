@@ -26,14 +26,16 @@ async function handle(request: Request) {
 
   if (type === RequestType.PING) return json({ type: 1 });
 
-  if (type ===  RequestType.COMMAND) {
-    const options = data.options;
-    console.log('Attempting to Roll...');
+  if (type === RequestType.COMMAND) {
     console.log(data);
-    console.log('Players:', options);
+    const options = data.options;
+    console.log("Attempting to Roll...");
+    console.log("Players:", options);
     const players = (options[0]?.value || "").split(" ").filter(Boolean);
-    const tooManyPlayers = players.length > 8;
-    if (tooManyPlayers) i.reply({ content: "Too many players!" });
+
+    if (players.length > 8) {
+      return json({ type: 4, data: { content: "Too many players!" } });
+    }
 
     // Default to rolling for 1 player
     const rolls = roll(new Set(players.length ? players : ["default"]));

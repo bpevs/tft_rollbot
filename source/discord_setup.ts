@@ -1,18 +1,5 @@
 import "dotenv";
 
-enum ApplicationCommandOptionType {
-  SUB_COMMAND = 1,
-  SUB_COMMAND_GROUP = 2,
-  STRING = 3,
-  INTEGER = 4,
-  BOOLEAN = 5,
-  USER = 6,
-  CHANNEL = 7,
-  ROLE = 8,
-  MENTIONABLE = 9,
-  NUMBER = 10,
-}
-
 const rollCommand = {
   name: "roll",
   description: "Roll a TFT Comp",
@@ -27,7 +14,6 @@ const rollCommand = {
 
 const BOT_TOKEN = Deno.env.get("BOT_TOKEN")!;
 const CLIENT_ID = Deno.env.get("CLIENT_ID")!;
-console.log(BOT_TOKEN, CLIENT_ID);
 
 const resp = await fetch(
   `https://discord.com/api/v8/applications/${CLIENT_ID}/commands`,
