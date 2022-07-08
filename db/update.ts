@@ -1,3 +1,5 @@
+// deno-lint-ignore-file no-explicit-any
+
 /**
  *  There is no auto-generated static content for TFT currently...
  *  Latest update is from set 5....
@@ -45,7 +47,6 @@ interface Trait {
 const resp = await fetch('https://raw.communitydragon.org/latest/cdragon/tft/en_us.json');
 const data = await resp.json();
 
-const setNames = Object.keys(data.sets);
 const setName = Number(Deno.args[0]);
 
 if (!data.sets[setName]) throw new Error('Invalid Set Name');
