@@ -22,7 +22,7 @@ Uses [Deno](https://deno.land/) both for discord server, and for terminal.
 #### Rolling for a single player
 
 ```
-!roll
+/roll
 ```
 
 ```
@@ -35,7 +35,7 @@ TFT RollBot (Season 6):
 #### Rolling for a group of players
 
 ```
-!roll @player1 @player2 @player3
+/roll @player1 @player2 @player3
 ```
 
 ```
