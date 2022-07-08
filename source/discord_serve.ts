@@ -27,7 +27,6 @@ async function handle(request: Request) {
   if (type === RequestType.PING) return json({ type: 1 });
 
   if (type === RequestType.COMMAND) {
-    console.log(data);
     const options = data.options;
     console.log("Attempting to Roll...");
     console.log("Players:", options);
