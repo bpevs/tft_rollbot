@@ -47,11 +47,12 @@ interface Trait {
 const resp = await fetch('https://raw.communitydragon.org/latest/cdragon/tft/en_us.json');
 const data = await resp.json();
 
-const setName = Number(Deno.args[0]);
+const setName = Deno.args[0];
+const setData = data.setData.find(setData => setData.name == setName);
 
-if (!data.sets[setName]) throw new Error('Invalid Set Name');
+if (!setData) throw new Error('Invalid Set Name');
 
-const { champions, traits } = data.sets[setName];
+const { champions, traits } = setData;
 
 const traitsSet: Set<string> = new Set();
 traits.forEach(({ name }) => traitsSet.add(name));
