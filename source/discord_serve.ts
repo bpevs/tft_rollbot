@@ -25,7 +25,6 @@ async function handle(request: Request) {
   const { type = 0, data } = JSON.parse(body);
   const options = data?.options || [];
 
-
   if (type === RequestType.PING) return json({ type: 1 });
 
   if (type === RequestType.COMMAND) {

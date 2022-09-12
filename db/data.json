@@ -1,96 +1,118 @@
 {
   "Cannoneer": [
     "Senna",
+    "Aphelios",
+    "Zeri",
+    "Graves",
     "Tristana",
-    "Corki",
-    "Jinx"
+    "Nomsy"
   ],
   "Tempest": [
     "Ezreal",
     "Lee Sin",
-    "Ornn",
     "Qiyana",
-    "Ao Shin"
+    "Ao Shin",
+    "Graves"
   ],
   "Assassin": [
-    "Diana",
-    "Talon",
-    "Kayn",
     "Qiyana",
-    "Pyke"
+    "Rengar",
+    "Nilah",
+    "Diana"
+  ],
+  "Prodigy": [
+    "Nomsy",
+    "Nomsy",
+    "Nomsy"
+  ],
+  "Dragon": [
+    "Shyvana",
+    "Ao Shin",
+    "Sy'fen",
+    "Shi Oh Yu",
+    "Idas",
+    "Daeja",
+    "Aurelion Sol",
+    "Sohm",
+    "Terra",
+    "Tyrant Swain",
+    "Zippy",
+    "Nomsy",
+    "Nomsy",
+    "Nomsy"
   ],
   "Ragewing": [
     "Senna",
     "Sett",
-    "Swain",
-    "Shen",
     "Shyvana",
     "Hecarim",
-    "Kayn",
-    "Xayah"
+    "Xayah",
+    "Rakan"
   ],
   "Guild": [
     "Sejuani",
-    "Ryze",
-    "Talon",
     "Bard",
-    "Twitch"
+    "Twitch",
+    "Jayce",
+    "Zippy"
   ],
   "Cavalier": [
     "Sejuani",
-    "Lillia",
     "Hecarim",
-    "Nunu & Willump"
+    "Nunu & Willump",
+    "Rell",
+    "Lillia"
   ],
   "Mage": [
     "Vladimir",
-    "Nami",
-    "Lillia",
-    "Ryze",
-    "Heimerdinger",
     "Zoe",
-    "Sylas"
+    "Sylas",
+    "Sohm",
+    "Taliyah",
+    "Heimerdinger",
+    "Lux",
+    "Lillia",
+    "Nomsy"
   ],
   "Evoker": [
+    "Aurelion Sol",
+    "Zyra",
+    "Seraphine",
     "Lulu",
-    "Anivia",
-    "Sona",
-    "Aurelion Sol"
+    "Nomsy"
+  ],
+  "Darkflight": [
+    "Aphelios",
+    "Rell",
+    "Rengar",
+    "Tyrant Swain"
   ],
   "Shimmerscale": [
-    "Aatrox",
-    "Volibear",
     "Zoe",
-    "Kayn",
-    "Idas"
+    "Idas",
+    "Volibear",
+    "Nasus",
+    "Jax"
   ],
   "Dragonmancer": [
     "Sett",
-    "Swain",
-    "Ashe",
     "Lee Sin",
-    "Volibear",
     "Karma",
-    "Yasuo"
+    "Yasuo",
+    "Kai'sa",
+    "Volibear"
   ],
   "Scalescorn": [
-    "Diana",
-    "Lillia",
+    "Braum",
     "Olaf",
-    "Braum"
+    "Lillia",
+    "Diana"
   ],
   "Whispers": [
-    "Thresh",
-    "Elise",
     "Sylas",
     "Sy'fen",
-    "Pyke"
-  ],
-  "Revel": [
-    "Corki",
-    "Jinx",
-    "Sona",
-    "Tahm Kench"
+    "Zyra",
+    "Pantheon"
   ],
   "Mirage": [
     "Yone",
@@ -99,28 +121,14 @@
     "Leona",
     "Daeja"
   ],
-  "Trainer": [
-    "Lulu",
-    "Heimerdinger",
-    "Tristana"
-  ],
   "Mystic": [
-    "Nami",
-    "Lulu",
     "Bard",
-    "Shi Oh Yu"
+    "Shi Oh Yu",
+    "Seraphine",
+    "Rakan"
   ],
-  "Legend": [
-    "Volibear",
-    "Ornn",
-    "Anivia"
-  ],
-  "Guardian": [
-    "Thresh",
-    "Braum",
-    "Taric",
-    "Leona",
-    "Idas"
+  "Monolith": [
+    "Terra"
   ],
   "Starcaller": [
     "Soraka"
@@ -128,35 +136,39 @@
   "Spell Thief": [
     "Zoe"
   ],
+  "Guardian": [
+    "Leona",
+    "Idas",
+    "Zac",
+    "Rakan",
+    "Nasus",
+    "Braum"
+  ],
   "Warrior": [
-    "Aatrox",
     "Yone",
-    "Shen",
-    "Olaf",
-    "Yasuo"
+    "Yasuo",
+    "Pantheon",
+    "Wukong",
+    "Olaf"
   ],
   "Jade": [
     "Gnar",
-    "Ashe",
     "Soraka",
     "Karma",
-    "Anivia",
-    "Neeko",
-    "Taric",
-    "Shi Oh Yu"
+    "Shi Oh Yu",
+    "Wukong",
+    "Jax"
   ],
   "Astral": [
     "Vladimir",
     "Nidalee",
-    "Nami",
     "Skarner",
     "Varus",
-    "Illaoi",
-    "Aurelion Sol"
+    "Aurelion Sol",
+    "Lux"
   ],
   "Swiftshot": [
     "Ezreal",
-    "Ashe",
     "Varus",
     "Xayah",
     "Twitch"
@@ -166,20 +178,26 @@
   ],
   "Bruiser": [
     "Skarner",
-    "Shen",
-    "Olaf",
-    "Ornn",
-    "Illaoi",
     "Sylas",
     "Sy'fen",
-    "Tahm Kench"
+    "Malphite",
+    "Jax",
+    "Olaf"
   ],
   "Shapeshifter": [
     "Nidalee",
     "Gnar",
-    "Swain",
-    "Elise",
     "Shyvana",
-    "Neeko"
+    "Jayce"
+  ],
+  "Lagoon": [
+    "Sohm",
+    "Taliyah",
+    "Malphite",
+    "Zac",
+    "Kai'sa",
+    "Seraphine",
+    "Zeri",
+    "Nilah"
   ]
 }
