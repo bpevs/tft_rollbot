@@ -48,7 +48,7 @@ const resp = await fetch('https://raw.communitydragon.org/latest/cdragon/tft/en_
 const data = await resp.json();
 
 const setName = Deno.args[0];
-const setData = data.setData.find(setData => setData.name == setName);
+const setData = data.setData.find(setData => setData.mutator == setName);
 
 if (!setData) throw new Error('Invalid Set Name');
 
