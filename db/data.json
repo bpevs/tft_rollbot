@@ -1,199 +1,183 @@
 {
-  "Cannoneer": [
-    "Senna",
-    "Aphelios",
-    "Zeri",
-    "Graves",
-    "Tristana",
-    "Nomsy"
+  "Civilian": [
+    "Galio",
+    "Sivir",
+    "Janna"
   ],
-  "Tempest": [
-    "Ezreal",
-    "Lee Sin",
-    "Qiyana",
-    "Ao Shin",
-    "Graves"
+  "A.D.M.I.N.": [
+    "Blitzcrank",
+    "Camille",
+    "Soraka",
+    "LeBlanc"
   ],
-  "Assassin": [
-    "Qiyana",
-    "Rengar",
-    "Nilah",
-    "Diana"
-  ],
-  "Prodigy": [
-    "Nomsy"
-  ],
-  "Dragon": [
-    "Shyvana",
-    "Ao Shin",
-    "Sy'fen",
-    "Shi Oh Yu",
-    "Idas",
-    "Daeja",
-    "Aurelion Sol",
-    "Sohm",
-    "Terra",
-    "Tyrant Swain",
-    "Zippy",
-    "Nomsy"
-  ],
-  "Ragewing": [
-    "Senna",
-    "Sett",
-    "Shyvana",
-    "Hecarim",
-    "Xayah",
-    "Rakan"
-  ],
-  "Guild": [
-    "Sejuani",
-    "Bard",
-    "Twitch",
-    "Jayce",
-    "Zippy"
-  ],
-  "Cavalier": [
-    "Sejuani",
-    "Hecarim",
-    "Nunu & Willump",
-    "Rell",
-    "Lillia"
-  ],
-  "Mage": [
-    "Vladimir",
-    "Zoe",
+  "Anima Squad": [
     "Sylas",
-    "Sohm",
-    "Taliyah",
-    "Heimerdinger",
-    "Lux",
-    "Lillia",
-    "Nomsy"
-  ],
-  "Evoker": [
-    "Aurelion Sol",
-    "Zyra",
-    "Seraphine",
-    "Lulu",
-    "Nomsy"
-  ],
-  "Darkflight": [
-    "Aphelios",
-    "Rell",
-    "Rengar",
-    "Tyrant Swain"
-  ],
-  "Shimmerscale": [
-    "Zoe",
-    "Idas",
-    "Volibear",
     "Nasus",
-    "Jax"
+    "Jinx",
+    "Vayne",
+    "Riven",
+    "Miss Fortune"
   ],
-  "Dragonmancer": [
-    "Sett",
+  "LaserCorps": [
+    "Sejuani",
+    "Ashe",
+    "Senna",
+    "Zed",
+    "Mordekaiser",
+    "Yasuo",
+    "Renekton"
+  ],
+  "Brawler": [
+    "Riven",
+    "Jax",
+    "Sejuani",
+    "Vi",
+    "Blitzcrank",
     "Lee Sin",
-    "Karma",
-    "Yasuo",
-    "Kai'sa",
-    "Volibear"
+    "Renekton"
   ],
-  "Scalescorn": [
-    "Braum",
-    "Olaf",
-    "Lillia",
-    "Diana"
-  ],
-  "Whispers": [
-    "Sylas",
-    "Sy'fen",
-    "Zyra",
-    "Pantheon"
-  ],
-  "Mirage": [
-    "Yone",
-    "Yasuo",
-    "Nunu & Willump",
+  "Mecha:PRIME": [
+    "Sett",
+    "Draven",
     "Leona",
-    "Daeja"
+    "Jax",
+    "Wukong"
   ],
-  "Mystic": [
-    "Bard",
-    "Shi Oh Yu",
-    "Seraphine",
-    "Rakan"
+  "Threat": [
+    "Vel'Koz",
+    "Cho'Gath",
+    "Aurelion Sol",
+    "Rammus",
+    "Bel'Veth",
+    "Zac",
+    "Urgot",
+    "Fiddlesticks"
   ],
-  "Monolith": [
-    "Terra"
+  "Mascot": [
+    "Nasus",
+    "Galio",
+    "Alistar",
+    "Nunu & Willump",
+    "Malphite",
+    "Yuumi"
   ],
-  "Starcaller": [
-    "Soraka"
+  "Forecaster": [
+    "Janna"
   ],
-  "Spell Thief": [
+  "Ace": [
+    "Miss Fortune",
+    "Draven",
+    "Mordekaiser",
+    "Samira"
+  ],
+  "Duelist": [
+    "Vayne",
+    "Nilah",
+    "Zed",
+    "Fiora",
+    "Kayle",
+    "Gangplank",
+    "Yasuo"
+  ],
+  "Ox Force": [
+    "Annie",
+    "Fiora",
+    "Alistar",
+    "Aphelios",
+    "Viego",
+    "Talon"
+  ],
+  "Arsenal": [
+    "Aphelios"
+  ],
+  "Aegis": [
+    "Ekko",
+    "Leona",
+    "Alistar",
+    "Vi"
+  ],
+  "Underground": [
+    "Kayle",
+    "Vi",
+    "Samira",
+    "Sona",
+    "Ezreal"
+  ],
+  "Star Guardian": [
+    "Taliyah",
+    "Lux",
+    "Nilah",
+    "Kai'Sa",
+    "Rell",
+    "Ekko",
+    "Syndra",
+    "Yuumi"
+  ],
+  "Prankster": [
+    "Jinx",
+    "Ekko",
     "Zoe"
   ],
-  "Guardian": [
-    "Leona",
-    "Idas",
-    "Zac",
-    "Rakan",
-    "Nasus",
-    "Braum"
+  "Heart": [
+    "Syndra",
+    "Sona",
+    "Lulu",
+    "Lee Sin",
+    "Yuumi",
+    "Soraka"
   ],
-  "Warrior": [
-    "Yone",
-    "Yasuo",
-    "Pantheon",
-    "Wukong",
-    "Olaf"
+  "Corrupted": [
+    "Fiddlesticks"
   ],
-  "Jade": [
-    "Gnar",
-    "Soraka",
-    "Karma",
-    "Shi Oh Yu",
-    "Wukong",
-    "Jax"
+  "Supers": [
+    "Gangplank",
+    "Lee Sin",
+    "Malphite"
   ],
-  "Astral": [
-    "Vladimir",
-    "Nidalee",
-    "Skarner",
-    "Varus",
-    "Aurelion Sol",
-    "Lux"
-  ],
-  "Swiftshot": [
-    "Ezreal",
-    "Varus",
-    "Xayah",
-    "Twitch"
-  ],
-  "Bard": [
-    "Bard"
-  ],
-  "Bruiser": [
-    "Skarner",
+  "Renegade": [
     "Sylas",
-    "Sy'fen",
-    "Malphite",
-    "Jax",
-    "Olaf"
+    "Leona",
+    "Viego",
+    "Camille",
+    "Talon"
   ],
-  "Shapeshifter": [
-    "Nidalee",
-    "Gnar",
-    "Shyvana",
-    "Jayce"
-  ],
-  "Lagoon": [
-    "Sohm",
+  "Spellslinger": [
+    "Janna",
     "Taliyah",
-    "Malphite",
-    "Zac",
-    "Kai'sa",
-    "Seraphine",
-    "Zeri",
-    "Nilah"
+    "Lux",
+    "Annie",
+    "Sona",
+    "LeBlanc"
+  ],
+  "Recon": [
+    "Vayne",
+    "Kai'Sa",
+    "Ashe",
+    "Ezreal"
+  ],
+  "Sureshot": [
+    "Sivir",
+    "Senna",
+    "Aphelios",
+    "Samira"
+  ],
+  "Defender": [
+    "Riven",
+    "Rell",
+    "Sett",
+    "Poppy",
+    "Wukong"
+  ],
+  "Gadgeteen": [
+    "Annie",
+    "Lulu",
+    "Zoe",
+    "Nunu & Willump",
+    "Poppy"
+  ],
+  "Hacker": [
+    "Zed",
+    "Zoe",
+    "LeBlanc"
   ]
 }
