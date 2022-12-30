@@ -18,7 +18,7 @@ const formatters: { [environment: string]: Formatter } = {
   [TERMINAL]: formatPlayerTextForTerminal,
 };
 
-const titleText = `TFT RollBot (Set "${setName}"):\n\n`;
+const titleText = `TFT RollBot (${setName}):\n\n`;
 
 export function formatOutputString(
   rolls: RollResultCollection,
