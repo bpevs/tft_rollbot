@@ -1,4 +1,6 @@
-import traits from "../../db/data.json" assert { type: "json" };
+import data from "../../db/data.json" assert { type: "json" };
+
+const { traits } = data;
 
 export interface RollResult {
   king: string;

@@ -1,7 +1,8 @@
+import data from "../../db/data.json" assert { type: "json" };
+import { ENVIRONMENT, Environment } from "../constants.ts";
 import type { RollResult, RollResultCollection } from "./roll.ts";
 
-import { ENVIRONMENT, Environment } from "../constants.ts";
-
+const { name: setName } = data;
 const { DISCORD, POWER_SHELL, TERMINAL } = ENVIRONMENT;
 
 interface RollData extends RollResult {
@@ -17,7 +18,7 @@ const formatters: { [environment: string]: Formatter } = {
   [TERMINAL]: formatPlayerTextForTerminal,
 };
 
-const titleText = "TFT RollBot (Season 7):\n\n";
+const titleText = `TFT RollBot (Set "${setName}"):\n\n`;
 
 export function formatOutputString(
   rolls: RollResultCollection,

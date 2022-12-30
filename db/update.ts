@@ -68,4 +68,7 @@ champions.forEach((champion: Champion) => {
   });
 });
 
-Deno.writeTextFileSync(`./db/data.json`, JSON.stringify(results, null, 2));
+Deno.writeTextFileSync(`./db/data.json`, JSON.stringify({
+  name: setName,
+  traits: results
+}, null, 2));

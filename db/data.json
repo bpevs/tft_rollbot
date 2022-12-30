@@ -1,183 +1,186 @@
 {
-  "Civilian": [
-    "Galio",
-    "Sivir",
-    "Janna"
-  ],
-  "A.D.M.I.N.": [
-    "Blitzcrank",
-    "Camille",
-    "Soraka",
-    "LeBlanc"
-  ],
-  "Anima Squad": [
-    "Sylas",
-    "Nasus",
-    "Jinx",
-    "Vayne",
-    "Riven",
-    "Miss Fortune"
-  ],
-  "LaserCorps": [
-    "Sejuani",
-    "Ashe",
-    "Senna",
-    "Zed",
-    "Mordekaiser",
-    "Yasuo",
-    "Renekton"
-  ],
-  "Brawler": [
-    "Riven",
-    "Jax",
-    "Sejuani",
-    "Vi",
-    "Blitzcrank",
-    "Lee Sin",
-    "Renekton"
-  ],
-  "Mecha:PRIME": [
-    "Sett",
-    "Draven",
-    "Leona",
-    "Jax",
-    "Wukong"
-  ],
-  "Threat": [
-    "Vel'Koz",
-    "Cho'Gath",
-    "Aurelion Sol",
-    "Rammus",
-    "Bel'Veth",
-    "Zac",
-    "Urgot",
-    "Fiddlesticks"
-  ],
-  "Mascot": [
-    "Nasus",
-    "Galio",
-    "Alistar",
-    "Nunu & Willump",
-    "Malphite",
-    "Yuumi"
-  ],
-  "Forecaster": [
-    "Janna"
-  ],
-  "Ace": [
-    "Miss Fortune",
-    "Draven",
-    "Mordekaiser",
-    "Samira"
-  ],
-  "Duelist": [
-    "Vayne",
-    "Nilah",
-    "Zed",
-    "Fiora",
-    "Kayle",
-    "Gangplank",
-    "Yasuo"
-  ],
-  "Ox Force": [
-    "Annie",
-    "Fiora",
-    "Alistar",
-    "Aphelios",
-    "Viego",
-    "Talon"
-  ],
-  "Arsenal": [
-    "Aphelios"
-  ],
-  "Aegis": [
-    "Ekko",
-    "Leona",
-    "Alistar",
-    "Vi"
-  ],
-  "Underground": [
-    "Kayle",
-    "Vi",
-    "Samira",
-    "Sona",
-    "Ezreal"
-  ],
-  "Star Guardian": [
-    "Taliyah",
-    "Lux",
-    "Nilah",
-    "Kai'Sa",
-    "Rell",
-    "Ekko",
-    "Syndra",
-    "Yuumi"
-  ],
-  "Prankster": [
-    "Jinx",
-    "Ekko",
-    "Zoe"
-  ],
-  "Heart": [
-    "Syndra",
-    "Sona",
-    "Lulu",
-    "Lee Sin",
-    "Yuumi",
-    "Soraka"
-  ],
-  "Corrupted": [
-    "Fiddlesticks"
-  ],
-  "Supers": [
-    "Gangplank",
-    "Lee Sin",
-    "Malphite"
-  ],
-  "Renegade": [
-    "Sylas",
-    "Leona",
-    "Viego",
-    "Camille",
-    "Talon"
-  ],
-  "Spellslinger": [
-    "Janna",
-    "Taliyah",
-    "Lux",
-    "Annie",
-    "Sona",
-    "LeBlanc"
-  ],
-  "Recon": [
-    "Vayne",
-    "Kai'Sa",
-    "Ashe",
-    "Ezreal"
-  ],
-  "Sureshot": [
-    "Sivir",
-    "Senna",
-    "Aphelios",
-    "Samira"
-  ],
-  "Defender": [
-    "Riven",
-    "Rell",
-    "Sett",
-    "Poppy",
-    "Wukong"
-  ],
-  "Gadgeteen": [
-    "Annie",
-    "Lulu",
-    "Zoe",
-    "Nunu & Willump",
-    "Poppy"
-  ],
-  "Hacker": [
-    "Zed",
-    "Zoe",
-    "LeBlanc"
-  ]
+  "name": "TFTSet8",
+  "traits": {
+    "Civilian": [
+      "Galio",
+      "Sivir",
+      "Janna"
+    ],
+    "A.D.M.I.N.": [
+      "Blitzcrank",
+      "Camille",
+      "Soraka",
+      "LeBlanc"
+    ],
+    "Anima Squad": [
+      "Sylas",
+      "Nasus",
+      "Jinx",
+      "Vayne",
+      "Riven",
+      "Miss Fortune"
+    ],
+    "LaserCorps": [
+      "Sejuani",
+      "Ashe",
+      "Senna",
+      "Zed",
+      "Mordekaiser",
+      "Yasuo",
+      "Renekton"
+    ],
+    "Brawler": [
+      "Riven",
+      "Jax",
+      "Sejuani",
+      "Vi",
+      "Blitzcrank",
+      "Lee Sin",
+      "Renekton"
+    ],
+    "Mecha:PRIME": [
+      "Sett",
+      "Draven",
+      "Leona",
+      "Jax",
+      "Wukong"
+    ],
+    "Threat": [
+      "Vel'Koz",
+      "Cho'Gath",
+      "Aurelion Sol",
+      "Rammus",
+      "Bel'Veth",
+      "Zac",
+      "Urgot",
+      "Fiddlesticks"
+    ],
+    "Mascot": [
+      "Nasus",
+      "Galio",
+      "Alistar",
+      "Nunu & Willump",
+      "Malphite",
+      "Yuumi"
+    ],
+    "Forecaster": [
+      "Janna"
+    ],
+    "Ace": [
+      "Miss Fortune",
+      "Draven",
+      "Mordekaiser",
+      "Samira"
+    ],
+    "Duelist": [
+      "Vayne",
+      "Nilah",
+      "Zed",
+      "Fiora",
+      "Kayle",
+      "Gangplank",
+      "Yasuo"
+    ],
+    "Ox Force": [
+      "Annie",
+      "Fiora",
+      "Alistar",
+      "Aphelios",
+      "Viego",
+      "Talon"
+    ],
+    "Arsenal": [
+      "Aphelios"
+    ],
+    "Aegis": [
+      "Ekko",
+      "Leona",
+      "Alistar",
+      "Vi"
+    ],
+    "Underground": [
+      "Kayle",
+      "Vi",
+      "Samira",
+      "Sona",
+      "Ezreal"
+    ],
+    "Star Guardian": [
+      "Taliyah",
+      "Lux",
+      "Nilah",
+      "Kai'Sa",
+      "Rell",
+      "Ekko",
+      "Syndra",
+      "Yuumi"
+    ],
+    "Prankster": [
+      "Jinx",
+      "Ekko",
+      "Zoe"
+    ],
+    "Heart": [
+      "Syndra",
+      "Sona",
+      "Lulu",
+      "Lee Sin",
+      "Yuumi",
+      "Soraka"
+    ],
+    "Corrupted": [
+      "Fiddlesticks"
+    ],
+    "Supers": [
+      "Gangplank",
+      "Lee Sin",
+      "Malphite"
+    ],
+    "Renegade": [
+      "Sylas",
+      "Leona",
+      "Viego",
+      "Camille",
+      "Talon"
+    ],
+    "Spellslinger": [
+      "Janna",
+      "Taliyah",
+      "Lux",
+      "Annie",
+      "Sona",
+      "LeBlanc"
+    ],
+    "Recon": [
+      "Vayne",
+      "Kai'Sa",
+      "Ashe",
+      "Ezreal"
+    ],
+    "Sureshot": [
+      "Sivir",
+      "Senna",
+      "Aphelios",
+      "Samira"
+    ],
+    "Defender": [
+      "Riven",
+      "Rell",
+      "Sett",
+      "Poppy",
+      "Wukong"
+    ],
+    "Gadgeteen": [
+      "Annie",
+      "Lulu",
+      "Zoe",
+      "Nunu & Willump",
+      "Poppy"
+    ],
+    "Hacker": [
+      "Zed",
+      "Zoe",
+      "LeBlanc"
+    ]
+  }
 }
