@@ -1,16 +1,16 @@
 {
-  "name": "TFTSet8",
+  "name": "TFTSet8_Stage2",
   "traits": {
-    "Civilian": [
-      "Galio",
-      "Sivir",
-      "Janna"
+    "Riftwalker": [
+      "Jhin",
+      "Vex",
+      "Pyke"
     ],
     "A.D.M.I.N.": [
       "Blitzcrank",
       "Camille",
-      "Soraka",
-      "LeBlanc"
+      "LeBlanc",
+      "Warwick"
     ],
     "Anima Squad": [
       "Sylas",
@@ -21,47 +21,49 @@
       "Miss Fortune"
     ],
     "LaserCorps": [
-      "Sejuani",
       "Ashe",
-      "Senna",
-      "Zed",
       "Mordekaiser",
       "Yasuo",
-      "Renekton"
+      "Renekton",
+      "Warwick"
     ],
     "Brawler": [
       "Riven",
       "Jax",
-      "Sejuani",
       "Vi",
       "Blitzcrank",
       "Lee Sin",
-      "Renekton"
+      "Renekton",
+      "Warwick"
     ],
     "Mecha:PRIME": [
-      "Sett",
       "Draven",
       "Leona",
       "Jax",
-      "Wukong"
+      "Wukong",
+      "Garen"
     ],
     "Threat": [
-      "Vel'Koz",
-      "Cho'Gath",
       "Aurelion Sol",
       "Rammus",
-      "Bel'Veth",
-      "Zac",
       "Urgot",
-      "Fiddlesticks"
+      "Fiddlesticks",
+      "Morgana",
+      "Aatrox",
+      "Bel'Veth"
+    ],
+    "Quickdraw": [
+      "Miss Fortune",
+      "Kai'Sa",
+      "Ezreal",
+      "Lucian"
     ],
     "Mascot": [
       "Nasus",
-      "Galio",
       "Alistar",
       "Nunu & Willump",
       "Malphite",
-      "Yuumi"
+      "Vex"
     ],
     "Forecaster": [
       "Janna"
@@ -75,22 +77,21 @@
     "Duelist": [
       "Vayne",
       "Nilah",
-      "Zed",
       "Fiora",
       "Kayle",
       "Gangplank",
-      "Yasuo"
+      "Yasuo",
+      "Twisted Fate"
+    ],
+    "Parallel": [
+      "Ezreal",
+      "Ultimate Ezreal"
     ],
     "Ox Force": [
       "Annie",
       "Fiora",
       "Alistar",
-      "Aphelios",
-      "Viego",
-      "Talon"
-    ],
-    "Arsenal": [
-      "Aphelios"
+      "Viego"
     ],
     "Aegis": [
       "Ekko",
@@ -106,27 +107,34 @@
       "Ezreal"
     ],
     "Star Guardian": [
-      "Taliyah",
       "Lux",
       "Nilah",
       "Kai'Sa",
       "Rell",
       "Ekko",
       "Syndra",
-      "Yuumi"
+      "Neeko"
     ],
     "Prankster": [
       "Jinx",
       "Ekko",
-      "Zoe"
+      "Gnar"
+    ],
+    "InfiniTeam": [
+      "Pantheon",
+      "Lucian",
+      "Ultimate Ezreal",
+      "Sivir",
+      "Shen",
+      "Twisted Fate"
     ],
     "Heart": [
       "Syndra",
+      "Viego",
       "Sona",
       "Lulu",
       "Lee Sin",
-      "Yuumi",
-      "Soraka"
+      "Pantheon"
     ],
     "Corrupted": [
       "Fiddlesticks"
@@ -141,46 +149,43 @@
       "Leona",
       "Viego",
       "Camille",
-      "Talon"
+      "Jhin",
+      "Lucian"
     ],
     "Spellslinger": [
       "Janna",
-      "Taliyah",
       "Lux",
       "Annie",
       "Sona",
-      "LeBlanc"
-    ],
-    "Recon": [
-      "Vayne",
-      "Kai'Sa",
-      "Ashe",
-      "Ezreal"
+      "LeBlanc",
+      "Twisted Fate",
+      "Neeko"
     ],
     "Sureshot": [
-      "Sivir",
-      "Senna",
-      "Aphelios",
-      "Samira"
+      "Ashe",
+      "Samira",
+      "Ultimate Ezreal",
+      "Sivir"
     ],
     "Defender": [
       "Riven",
       "Rell",
-      "Sett",
       "Poppy",
-      "Wukong"
+      "Wukong",
+      "Garen",
+      "Shen"
     ],
     "Gadgeteen": [
       "Annie",
       "Lulu",
-      "Zoe",
       "Nunu & Willump",
-      "Poppy"
+      "Poppy",
+      "Gnar"
     ],
     "Hacker": [
-      "Zed",
-      "Zoe",
-      "LeBlanc"
+      "LeBlanc",
+      "Shen",
+      "Pyke"
     ]
   }
 }
