@@ -1,191 +1,194 @@
 {
-  "name": "TFTSet8_Stage2",
+  "name": "TFTSet9",
   "traits": {
-    "Riftwalker": [
-      "Jhin",
-      "Vex",
-      "Pyke"
+    "Bastion": [
+      "K'Sante",
+      "Poppy",
+      "Shen",
+      "Taric",
+      "Maokai",
+      "Kassadin"
     ],
-    "A.D.M.I.N.": [
-      "Blitzcrank",
-      "Camille",
-      "LeBlanc",
-      "Warwick"
+    "Sorcerer": [
+      "Ahri",
+      "Lux",
+      "Orianna",
+      "Swain",
+      "Taric",
+      "Vel'Koz",
+      "Malzahar"
     ],
-    "Anima Squad": [
-      "Sylas",
-      "Nasus",
-      "Jinx",
-      "Vayne",
-      "Riven",
-      "Miss Fortune"
+    "Yordle": [
+      "Tristana",
+      "Heimerdinger",
+      "Kled",
+      "Poppy",
+      "Teemo"
     ],
-    "LaserCorps": [
+    "Deadeye": [
+      "Akshan",
       "Ashe",
-      "Mordekaiser",
-      "Yasuo",
-      "Renekton",
-      "Warwick"
-    ],
-    "Brawler": [
-      "Riven",
-      "Jax",
-      "Vi",
-      "Blitzcrank",
-      "Lee Sin",
-      "Renekton",
-      "Warwick"
-    ],
-    "Mecha:PRIME": [
-      "Draven",
-      "Leona",
-      "Jax",
-      "Wukong",
-      "Garen"
-    ],
-    "Threat": [
-      "Aurelion Sol",
-      "Rammus",
       "Urgot",
-      "Fiddlesticks",
-      "Morgana",
-      "Aatrox",
-      "Bel'Veth"
+      "Aphelios",
+      "Jhin"
     ],
-    "Quickdraw": [
-      "Miss Fortune",
+    "Void": [
+      "Bel'Veth",
+      "Cho'Gath",
       "Kai'Sa",
-      "Ezreal",
-      "Lucian"
+      "Rek'Sai",
+      "Vel'Koz",
+      "Malzahar",
+      "Kassadin"
     ],
-    "Mascot": [
-      "Nasus",
-      "Alistar",
-      "Nunu & Willump",
-      "Malphite",
-      "Vex"
-    ],
-    "Forecaster": [
-      "Janna"
-    ],
-    "Ace": [
-      "Miss Fortune",
-      "Draven",
-      "Mordekaiser",
-      "Samira"
-    ],
-    "Duelist": [
-      "Vayne",
-      "Nilah",
-      "Fiora",
+    "Demacia": [
+      "Garen",
+      "Jarvan IV",
+      "Lux",
+      "Poppy",
+      "Sona",
       "Kayle",
-      "Gangplank",
-      "Yasuo",
-      "Twisted Fate"
+      "Galio"
     ],
-    "Parallel": [
-      "Ezreal",
-      "Ultimate Ezreal"
-    ],
-    "Ox Force": [
-      "Annie",
-      "Fiora",
-      "Alistar",
+    "Rogue": [
+      "Ekko",
+      "Katarina",
+      "Zed",
       "Viego"
     ],
-    "Aegis": [
-      "Ekko",
-      "Leona",
-      "Alistar",
+    "Slayer": [
+      "Aatrox",
+      "Gwen",
+      "Kled",
+      "Zed",
+      "Kayle"
+    ],
+    "Invoker": [
+      "Karma",
+      "Lissandra",
+      "Shen",
+      "Soraka",
+      "Cassiopeia",
+      "Galio",
+      "Ryze",
+      "Ryze"
+    ],
+    "Bruiser": [
+      "Cho'Gath",
+      "Rek'Sai",
+      "Renekton",
+      "Sejuani",
+      "Sion",
       "Vi"
     ],
-    "Underground": [
-      "Kayle",
-      "Vi",
-      "Samira",
-      "Sona",
-      "Ezreal"
+    "Noxus": [
+      "Darius",
+      "Katarina",
+      "Kled",
+      "Sion",
+      "Swain",
+      "Cassiopeia",
+      "Samira"
     ],
-    "Star Guardian": [
-      "Lux",
-      "Nilah",
-      "Kai'Sa",
-      "Rell",
+    "Shurima": [
+      "Akshan",
+      "Azir",
+      "K'Sante",
+      "Renekton",
+      "Cassiopeia",
+      "Nasus",
+      "Taliyah"
+    ],
+    "Strategist": [
+      "Azir",
+      "Jarvan IV",
+      "Swain",
+      "Teemo"
+    ],
+    "Redeemer": [
+      "Senna"
+    ],
+    "Piltover": [
       "Ekko",
-      "Syndra",
-      "Neeko"
+      "Heimerdinger",
+      "Jayce",
+      "Orianna",
+      "Vi"
     ],
-    "Prankster": [
+    "Multicaster": [
+      "Sona",
+      "Teemo",
+      "Vel'Koz",
+      "Taliyah"
+    ],
+    "Gunner": [
+      "Tristana",
+      "Jayce",
       "Jinx",
-      "Ekko",
-      "Gnar"
+      "Senna",
+      "Zeri"
     ],
-    "InfiniTeam": [
-      "Pantheon",
-      "Lucian",
-      "Ultimate Ezreal",
-      "Sivir",
-      "Shen",
-      "Twisted Fate"
+    "Empress": [
+      "Bel'Veth"
     ],
-    "Heart": [
-      "Syndra",
-      "Viego",
-      "Sona",
-      "Lulu",
-      "Lee Sin",
-      "Pantheon"
+    "Shadow Isles": [
+      "Gwen",
+      "Senna",
+      "Maokai",
+      "Kalista",
+      "Viego"
     ],
-    "Corrupted": [
-      "Fiddlesticks"
-    ],
-    "Supers": [
-      "Gangplank",
-      "Lee Sin",
-      "Malphite"
-    ],
-    "Renegade": [
-      "Sylas",
-      "Leona",
-      "Viego",
-      "Camille",
-      "Jhin",
-      "Lucian"
-    ],
-    "Spellslinger": [
-      "Janna",
-      "Lux",
-      "Annie",
-      "Sona",
-      "LeBlanc",
-      "Twisted Fate",
-      "Neeko"
-    ],
-    "Sureshot": [
+    "Freljord": [
       "Ashe",
-      "Samira",
-      "Ultimate Ezreal",
-      "Sivir"
+      "Lissandra",
+      "Sejuani"
     ],
-    "Defender": [
-      "Riven",
-      "Rell",
-      "Poppy",
-      "Wukong",
+    "Targon": [
+      "Soraka",
+      "Taric",
+      "Aphelios"
+    ],
+    "Darkin": [
+      "Aatrox"
+    ],
+    "Wanderer": [
+      "Ryze"
+    ],
+    "Zaun": [
+      "Ekko",
+      "Jinx",
+      "Warwick",
+      "Urgot",
+      "Zeri"
+    ],
+    "Juggernaut": [
+      "Aatrox",
+      "Darius",
       "Garen",
-      "Shen"
+      "Warwick",
+      "Nasus",
+      "Sett"
     ],
-    "Gadgeteen": [
-      "Annie",
-      "Lulu",
-      "Nunu & Willump",
-      "Poppy",
-      "Gnar"
+    "Technogenius": [
+      "Heimerdinger"
     ],
-    "Hacker": [
-      "LeBlanc",
+    "Challenger": [
+      "Irelia",
+      "Kai'Sa",
+      "Warwick",
+      "Yasuo",
+      "Samira",
+      "Kalista"
+    ],
+    "Ionia": [
+      "Irelia",
+      "Ahri",
+      "Karma",
       "Shen",
-      "Pyke"
+      "Yasuo",
+      "Zed",
+      "Sett",
+      "Jhin"
     ]
   }
 }
