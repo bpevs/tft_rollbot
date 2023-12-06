@@ -1,194 +1,196 @@
 {
-  "name": "TFTSet9",
+  "name": "TFTSet10",
   "traits": {
-    "Bastion": [
+    "Emo": [
+      "Amumu",
+      "Annie",
+      "Poppy",
+      "Vex"
+    ],
+    "Sentinel": [
+      "Blitzcrank",
+      "Ekko",
+      "Lillia",
+      "Mordekaiser",
       "K'Sante",
-      "Poppy",
-      "Shen",
+      "Garen"
+    ],
+    "Guardian": [
+      "Amumu",
+      "Kennen",
+      "Neeko",
+      "Pantheon",
       "Taric",
-      "Maokai",
-      "Kassadin"
+      "Thresh",
+      "Yorick"
     ],
-    "Sorcerer": [
-      "Ahri",
-      "Lux",
-      "Orianna",
-      "Swain",
-      "Taric",
-      "Vel'Koz",
-      "Malzahar"
+    "True Damage": [
+      "Ekko",
+      "Kennen",
+      "Qiyana",
+      "Senna",
+      "Yasuo",
+      "Akali"
     ],
-    "Yordle": [
-      "Tristana",
-      "Heimerdinger",
-      "Kled",
-      "Poppy",
-      "Teemo"
-    ],
-    "Deadeye": [
-      "Akshan",
-      "Ashe",
+    "Country": [
+      "Katarina",
+      "Samira",
+      "Thresh",
       "Urgot",
-      "Aphelios",
+      "Tahm Kench"
+    ],
+    "8-bit": [
+      "Caitlyn",
+      "Corki",
+      "Riven",
+      "Garen"
+    ],
+    "Breakout": [
+      "Akali"
+    ],
+    "Spellweaver": [
+      "Ahri",
+      "Annie",
+      "Ekko",
+      "Gragas",
+      "Lulu",
+      "Seraphine",
+      "Sona"
+    ],
+    "Hyperpop": [
+      "Lulu",
+      "Ziggs"
+    ],
+    "Pentakill": [
+      "Gnar",
+      "Karthus",
+      "Kayle",
+      "Mordekaiser",
+      "Viego",
+      "Yorick",
+      "Olaf",
+      "Yorick"
+    ],
+    "ILLBEATS": [
+      "Illaoi"
+    ],
+    "Wildcard": [
+      "Kayn"
+    ],
+    "Edgelord": [
+      "Kayle",
+      "Kayn",
+      "Riven",
+      "Viego",
+      "Yasuo",
+      "Yone"
+    ],
+    "Executioner": [
+      "Akali",
+      "Karthus",
+      "Samira",
+      "Twitch",
+      "Vex",
+      "Akali"
+    ],
+    "Superfan": [
+      "Gnar",
+      "Kennen",
+      "Lillia",
+      "Neeko"
+    ],
+    "Mixmaster": [
+      "Sona"
+    ],
+    "Big Shot": [
+      "Corki",
+      "Ezreal",
+      "Jhin",
+      "Miss Fortune",
+      "Kai'Sa"
+    ],
+    "Crowd Diver": [
+      "Evelynn",
+      "Katarina",
+      "Qiyana",
+      "Yone",
+      "Zed"
+    ],
+    "K/DA": [
+      "Ahri",
+      "Akali",
+      "Evelynn",
+      "Lillia",
+      "Neeko",
+      "Seraphine",
+      "Kai'Sa"
+    ],
+    "Maestro": [
       "Jhin"
     ],
-    "Void": [
-      "Bel'Veth",
-      "Cho'Gath",
-      "Kai'Sa",
-      "Rek'Sai",
-      "Vel'Koz",
-      "Malzahar",
-      "Kassadin"
+    "Disco": [
+      "Blitzcrank",
+      "Gragas",
+      "Nami",
+      "Taric",
+      "Twisted Fate",
+      "Disco Ball"
     ],
-    "Demacia": [
-      "Garen",
-      "Jarvan IV",
-      "Lux",
+    "Mosher": [
+      "Gnar",
+      "Jax",
       "Poppy",
-      "Sona",
-      "Kayle",
-      "Galio"
+      "Sett",
+      "Urgot",
+      "Vi",
+      "Yorick"
     ],
-    "Rogue": [
-      "Ekko",
-      "Katarina",
-      "Zed",
-      "Viego"
-    ],
-    "Slayer": [
-      "Aatrox",
-      "Gwen",
-      "Kled",
-      "Zed",
-      "Kayle"
-    ],
-    "Invoker": [
-      "Karma",
-      "Lissandra",
-      "Shen",
-      "Soraka",
-      "Cassiopeia",
-      "Galio",
-      "Ryze",
-      "Ryze"
-    ],
-    "Bruiser": [
-      "Cho'Gath",
-      "Rek'Sai",
-      "Renekton",
-      "Sejuani",
-      "Sion",
-      "Vi"
-    ],
-    "Noxus": [
-      "Darius",
-      "Katarina",
-      "Kled",
-      "Sion",
-      "Swain",
-      "Cassiopeia",
-      "Samira"
-    ],
-    "Shurima": [
-      "Akshan",
-      "Azir",
-      "K'Sante",
-      "Renekton",
-      "Cassiopeia",
-      "Nasus",
-      "Taliyah"
-    ],
-    "Strategist": [
-      "Azir",
-      "Jarvan IV",
-      "Swain",
-      "Teemo"
-    ],
-    "Redeemer": [
+    "Rapidfire": [
+      "Aphelios",
+      "Caitlyn",
+      "Jinx",
+      "Lucian",
       "Senna"
     ],
-    "Piltover": [
-      "Ekko",
-      "Heimerdinger",
-      "Jayce",
-      "Orianna",
+    "Punk": [
+      "Jinx",
+      "Pantheon",
+      "Twitch",
       "Vi"
     ],
-    "Multicaster": [
-      "Sona",
-      "Teemo",
-      "Vel'Koz",
-      "Taliyah"
+    "Dazzler": [
+      "Bard",
+      "Lux",
+      "Nami",
+      "Ziggs",
+      "Twisted Fate"
     ],
-    "Gunner": [
-      "Tristana",
-      "Jayce",
-      "Jinx",
-      "Senna",
-      "Zeri"
-    ],
-    "Empress": [
-      "Bel'Veth"
-    ],
-    "Shadow Isles": [
-      "Gwen",
-      "Senna",
-      "Maokai",
-      "Kalista",
-      "Viego"
-    ],
-    "Freljord": [
-      "Ashe",
-      "Lissandra",
-      "Sejuani"
-    ],
-    "Targon": [
-      "Soraka",
-      "Taric",
-      "Aphelios"
-    ],
-    "Darkin": [
-      "Aatrox"
-    ],
-    "Wanderer": [
-      "Ryze"
-    ],
-    "Zaun": [
-      "Ekko",
-      "Jinx",
-      "Warwick",
-      "Urgot",
-      "Zeri"
-    ],
-    "Juggernaut": [
-      "Aatrox",
-      "Darius",
-      "Garen",
-      "Warwick",
-      "Nasus",
-      "Sett"
-    ],
-    "Technogenius": [
-      "Heimerdinger"
-    ],
-    "Challenger": [
-      "Irelia",
-      "Kai'Sa",
-      "Warwick",
-      "Yasuo",
-      "Samira",
-      "Kalista"
-    ],
-    "Ionia": [
-      "Irelia",
-      "Ahri",
-      "Karma",
-      "Shen",
-      "Yasuo",
-      "Zed",
+    "Heartsteel": [
+      "Aphelios",
+      "Ezreal",
+      "Kayn",
       "Sett",
-      "Jhin"
+      "Yone",
+      "K'Sante"
+    ],
+    "Bruiser": [
+      "Gragas",
+      "Illaoi",
+      "Sett",
+      "Zac",
+      "Olaf",
+      "Tahm Kench"
+    ],
+    "Jazz": [
+      "Bard",
+      "Lucian",
+      "Miss Fortune"
+    ],
+    "EDM": [
+      "Jax",
+      "Lux",
+      "Zac",
+      "Zed"
     ]
   }
 }
